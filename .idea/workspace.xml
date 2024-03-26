@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fcb1f6ac-c769-451d-995f-3d36f33194eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Semi-Specialisation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/note/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/notes/NoteIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/notes/Notes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/notes/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/writer/FileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/writer/Writable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/presenter/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/ConsoleUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/ChangeNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/CreateNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/DeleteNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/Finish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/GetNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/LoadNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/commands/SaveNotes.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2eA2eMHoeiFNkuBIT1vejKDGEnp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model.note" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="view.commands" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Semi-Specialisation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcb1f6ac-c769-451d-995f-3d36f33194eb" name="Changes" comment="" />
+      <created>1711333160579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711333160579</updated>
+    </task>
+    <servers />
+  </component>
+</project>
