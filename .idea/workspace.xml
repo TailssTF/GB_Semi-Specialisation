@@ -6,22 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="fcb1f6ac-c769-451d-995f-3d36f33194eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Semi-Specialisation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Semi-Specialisation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/note/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/note/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/notes/data/notes.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/notes/data/notes.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/notes/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/notes/Notes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/presenter/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presenter/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ConsoleUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/writer/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/writer/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/writer/Writable.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,8 +42,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Code/geekbrains/Semi-Specialisation/src/lib/gson-1.4.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -75,5 +87,16 @@
       <updated>1711333160579</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/note/Note.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

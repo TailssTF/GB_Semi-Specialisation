@@ -5,13 +5,14 @@ import model.notes.TreeNode;
 import java.io.Serializable;
 import java.text.DateFormat;
 import java.util.Date;
-import java.util.Locale;
 
 public class Note implements Serializable, TreeNode<Note> {
     private int id;
     private String header;
     private String text;
     private Date date;
+
+    public Note(){}
 
     public Note(String header,String text) {
         id = -1;
@@ -21,6 +22,7 @@ public class Note implements Serializable, TreeNode<Note> {
     }
 
     public int getId() {return id;}
+    public void setId(int id) { this.id = id; }
 
     public String getHeader() { return header; }
 
@@ -38,7 +40,6 @@ public class Note implements Serializable, TreeNode<Note> {
     public void setDate(Date date) {
         this.date = date; }
 
-    public void setId(int id) { this.id = id; }
 
     @Override
     public String toString() {

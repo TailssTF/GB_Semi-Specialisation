@@ -34,6 +34,10 @@ public class Notes<E extends TreeNode<E>> implements Serializable, Iterable<E> {
         return getById(id);
     }
 
+    public List<E> getNotes() {
+        return notes;
+    }
+
     @Override
     public Iterator<E> iterator() {
         return new NoteIterator<>(notes);

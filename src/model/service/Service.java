@@ -5,7 +5,7 @@ import model.notes.Notes;
 import model.writer.FileHandler;
 
 import java.util.Date;
-import java.util.TreeMap;
+import java.util.List;
 
 public class Service {
     private int idNote;
@@ -49,18 +49,18 @@ public class Service {
     }
 
     public void saveNotes(){
-        String filePath = "src/model/notes/data/notes.out";
+        String filePath = "src/model/notes/data/notes.json";
         FileHandler fileHandler = new FileHandler();
 
-        fileHandler.save(notes, filePath);
+        fileHandler.save(notes.getNotes(), filePath);
         System.out.println("Заметки сохранены");
     }
 
     public void loadNotes(){
-        String filePath = "src/model/notes/data/notes.out";
+        String filePath = "src/model/notes/data/notes.json";
         FileHandler fileHandler = new FileHandler();
 
-        notes = (Notes) fileHandler.read(filePath);
+        notes = new Notes((List) fileHandler.read(filePath));
         System.out.println("Заметки загружены");
     }
 }
