@@ -4,6 +4,7 @@ import model.note.Note;
 import model.notes.Notes;
 import model.writer.FileHandler;
 
+import java.util.Date;
 import java.util.TreeMap;
 
 public class Service {
@@ -14,10 +15,14 @@ public class Service {
         notes = new Notes();
     }
 
-    public void createNote(String text){
-        Note note = new Note(text);
+    public void createNote(String header, String text){
+        Note note = new Note(header, text);
         notes.add(note);
         System.out.println("Заметка создана");
+    }
+
+    public String getNote(int id) {
+        return notes.getNote(id).toString();
     }
 
     public String getNotes() {
@@ -30,8 +35,11 @@ public class Service {
         return stringBuilder.toString();
     }
 
-    public void changeNote(int id, String text) {
-        notes.getNote(id).setText(text);
+    public void changeNote(int id, String header, String text) {
+        Note note = notes.getNote(id);
+        note.setHeader(header);
+        note.setText(text);
+        note.setDate(new Date());
         System.out.println("Заметка изменена");
     }
 

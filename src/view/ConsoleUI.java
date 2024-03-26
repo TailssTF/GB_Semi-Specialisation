@@ -53,19 +53,25 @@ public class ConsoleUI implements View {
     }
 
     public void createNote(){
+        System.out.println("Введите заголовок заметки:");
+        String header = scanner.nextLine();
         System.out.println("Введите текст заметки:");
-        String note = scanner.nextLine();
+        String text = scanner.nextLine();
 
-        presenter.createNote(note);
+        presenter.createNote(header, text);
     }
 
     public void changeNote(){
         System.out.println("Введите id заметки:");
         int id = Integer.parseInt(scanner.nextLine());
+        System.out.println("Выбранная заметка:");
+        presenter.getNote(id);
+        System.out.println("Введите новый заголовок заметки:");
+        String header = scanner.nextLine();
         System.out.println("Введите новый текст заметки:");
         String text = scanner.nextLine();
 
-        presenter.changeNote(id, text);
+        presenter.changeNote(id, header, text);
     }
 
     public void deleteNote(){

@@ -14,12 +14,16 @@ public class Presenter {
 
     public void getNotes(){ view.printAnswer(service.getNotes());}
 
-    public void createNote(String note){
-        service.createNote(note);
+    public void createNote(String header, String text){
+        service.createNote(header, text);
     }
 
-    public void changeNote(int id, String text){
-        service.changeNote(id, text);
+    public void getNote(int id) {
+        service.getNote(id);
+    }
+
+    public void changeNote(int id, String header, String text){
+        service.changeNote(id, header, text);
     }
 
     public void deleteNote(int id){
